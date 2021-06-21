@@ -22,5 +22,6 @@ public class MonitorService {
         System.out.println(testRequest.getId());
         System.out.println(testRequest.getName());
         System.out.println("Test");
+        System.out.println("another test");
     }
 }
