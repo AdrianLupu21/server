@@ -21,5 +21,6 @@ public class MonitorService {
     public void postMonitor(@RequestBody TestRequest testRequest){
         System.out.println(testRequest.getId());
         System.out.println(testRequest.getName());
+        System.out.println("Test");
     }
 }
