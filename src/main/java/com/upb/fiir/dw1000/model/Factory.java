@@ -10,16 +10,15 @@ import javax.persistence.*;
 @Entity
 @Getter
 @Setter
-public class DW1000 {
+public class Factory {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false, unique = true, columnDefinition="serial")
     private int id;
-    private String dw1000Name;
-    private int dw1000Id;
 
-    @OneToOne
-    @JoinColumn(name="factory_id", nullable=false)
-    private Factory factory;
+    private String name;
+    private String email;
+    private String address;
+
 }
